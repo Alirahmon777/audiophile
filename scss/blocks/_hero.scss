@@ -1,0 +1,43 @@
+.hero {
+  background-image: url(../img/hero-bg.png);
+  background-position: 0 -100px;
+  &__wrapper {
+    padding: 128px 0 158px;
+  }
+
+  &__content {
+    width: 377px;
+  }
+
+  &__subtext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  &__btn {
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    &:hover {
+        background-color: #fbaf85 !important;
+    }
+  }
+}

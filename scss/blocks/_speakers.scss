@@ -1,0 +1,86 @@
+.speaker {
+  margin-top: 168px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  &__box:nth-child(1) {
+    background-image: url(../img/zx9-bgimage.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 560px;
+    overflow: hidden;
+  }
+
+  &__box:nth-child(2) {
+    background-image: url(../img/zx7-bgimage.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 320px;
+    overflow: hidden;
+  }
+
+  &__img {
+    position: relative;
+    left: 40px;
+    top: 70px;
+    z-index: 1;
+  }
+
+  &__content {
+    width: 326px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+  }
+
+  &__box:nth-child(1) &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+  }
+
+  &__text {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  &__btn {
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    &:hover {
+      background-color: #000;
+      color: #fff !important;
+    }
+  }
+
+  &--btn {
+    border: none;
+    background: #000;
+    &:hover {
+      background-color: #4c4c4c;
+    }
+  }
+
+  &__earpods {
+    height: 320px;
+    width: 520px;
+    padding: 101px 0 101px 95px;
+    border-radius: 10px;
+  }
+}

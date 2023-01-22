@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 200px;
+  padding: 48px 0;
+  background-color: #131313;
+  overflow: hidden;
+  
+  &__nav::before{
+    content: "";
+    position: absolute;
+    top: -72px;
+    left: 0;
+    width: 101px;
+    height: 4px;
+    background: #d87d4a;
+  }
+
+  &__social svg path {
+    transition: all 0.2s linear;
+    &:hover {
+      fill: #d87d4a;
+    }
+  }
+  
+  &__link {
+    font-size: 13px;
+    transition: 0.3s linear;
+  }
+
+  
+  &__text {
+    font-size: 15px;
+  }
+}

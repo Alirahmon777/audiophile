@@ -1,0 +1,24 @@
+.header {
+  &__wrapper {
+    padding-top: 32px;
+    padding-bottom: 36px;
+  }
+
+  &__nav {
+    gap: 196px !important;
+    align-items: center !important;
+  }
+
+  &__list {
+    gap: 34px !important;
+  }
+
+  &__link {
+    transition: all 0.3s linear;
+    font-size: 13px;
+  }
+
+  &__link:hover {
+    color: #d87d4a !important;
+  }
+}

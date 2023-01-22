@@ -1,0 +1,64 @@
+.headphones {
+  &__wrapper {
+    margin-top: 120px;
+  }
+
+  &__grey {
+    position: relative;
+    height: 204px;
+    width: 350px;
+  }
+
+  &__grey:hover &__img,
+  &__grey:hover &__blur {
+    animation-play-state: paused;
+  }
+
+  &__img {
+    position: absolute;
+    top: -60px;
+    animation: img 0.8s linear infinite alternate;
+  }
+  @keyframes img {
+    0% {
+      top: -55px;
+    }
+
+    100% {
+      top: -65px;
+    }
+  }
+
+  &--img {
+    top: -79px;
+  }
+
+  &__blur {
+    position: relative;
+    top: -50px;
+    background: #000000;
+    filter: blur(21.7463px);
+    animation: blur 0.8s linear infinite alternate;
+  }
+  @keyframes blur {
+    0% {
+      top: -45px;
+    }
+
+    100% {
+      top: -55px;
+    }
+  }
+
+  &__link {
+    transition: all 0.3s linear;
+  }
+
+  &__link:hover {
+    color: #d87d4a !important;
+  }
+
+  &__arrow {
+    vertical-align: middle !important;
+  }
+}

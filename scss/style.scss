@@ -1,0 +1,32 @@
+$theme-colors: (
+  "coral": #d87d4a,
+  "dark": #101010,
+  "whitesmoke": #f1f1f1,
+  "snow": #fafafa,
+  "bisque": #fbaf85,
+  "white": #ffffff,
+  "blackdark": #131313,
+  "black": #000000,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1109px,
+  xxl: 1110px,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./mixins";
+@import "./variables";
+@import "./normalize";
+@import "./fonts";
+@import "./global";
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/headphones";
+@import "./blocks/speakers";
+@import "./blocks/bringing";
+@import "./blocks/footer";
